@@ -4,6 +4,7 @@ section{
     background-color: white;
     margin:0; 
     padding:0; 
+
     h3{
         width:60%; 
         margin:0 auto; 
@@ -59,7 +60,7 @@ section{
         }
     }
 
-    div#container{
+    div.container{
         width:80%; 
         margin:0 auto; 
         display:flex; 
@@ -103,6 +104,38 @@ section{
                     p{
                         margin:5px;
                         padding-bottom:15px;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    &#secbottom{
+        margin-top:5%;
+        color:white;
+        h3{
+            padding:15px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        p{
+            width:60%; 
+            margin:10px auto;
+        }
+        ul.sosmedias{
+            display:flex; 
+            justify-content: center;
+            list-style-type:none; 
+
+            li{
+                padding:10px;
+                a{
+                    text-decoration:none;
+                    color:grey;
+                    i{
+                        font-size:30px;
+                        margin:10px;
                     }
                 }
             }

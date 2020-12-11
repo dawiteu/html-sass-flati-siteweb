@@ -6248,21 +6248,21 @@ section #cartes .carte p {
   padding: 10px;
 }
 
-section div#container {
+section div.container {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-section div#container div#recentw {
+section div.container div#recentw {
   text-align: left;
   margin-right: 10%;
   color: #2d2d2d;
   flex: 1;
 }
 
-section div#container div#recentw button {
+section div.container div#recentw button {
   color: white;
   background-color: #42b4d8;
   border: none;
@@ -6270,21 +6270,21 @@ section div#container div#recentw button {
   border-radius: 5px;
 }
 
-section div#container div#minigal {
+section div.container div#minigal {
   display: flex;
   flex: 2;
   margin-left: 5%;
 }
 
-section div#container div#minigal div.projects {
+section div.container div#minigal div.projects {
   margin: 5px;
 }
 
-section div#container div#minigal div.projects img {
+section div.container div#minigal div.projects img {
   width: 100%;
 }
 
-section div#container div#minigal div.projects div.projectsinfo {
+section div.container div#minigal div.projects div.projectsinfo {
   margin-top: -5px;
   background-color: #002e4d;
   color: white;
@@ -6292,14 +6292,61 @@ section div#container div#minigal div.projects div.projectsinfo {
   border-bottom-right-radius: 5px;
 }
 
-section div#container div#minigal div.projects div.projectsinfo h3 {
+section div.container div#minigal div.projects div.projectsinfo h3 {
   padding: 10px;
   color: white;
 }
 
-section div#container div#minigal div.projects div.projectsinfo p {
+section div.container div#minigal div.projects div.projectsinfo p {
   margin: 5px;
   padding-bottom: 15px;
+}
+
+section#secbottom {
+  margin-top: 5%;
+  color: white;
+}
+
+section#secbottom h3 {
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+section#secbottom p {
+  width: 60%;
+  margin: 10px auto;
+}
+
+section#secbottom ul.sosmedias {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+section#secbottom ul.sosmedias li {
+  padding: 10px;
+}
+
+section#secbottom ul.sosmedias li a {
+  text-decoration: none;
+  color: grey;
+}
+
+section#secbottom ul.sosmedias li a i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: #1d6399;
+  text-align: center;
+  color: grey;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -6326,7 +6373,7 @@ ul {
 }
 
 .bgblue {
-  background-color: blue;
+  background-color: #42b4d8;
 }
 
 .b {
