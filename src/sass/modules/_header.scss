@@ -1,0 +1,40 @@
+header{
+    width:100%; 
+    min-height:70vh; 
+    color:white; 
+    text-transform: uppercase;
+    background-image: url("../../../public/img/bg-header.png");
+    background-size: cover;
+    nav{
+        div#brand{
+            font-size:25px;
+            align-self: center;
+        }
+        width:100%; 
+        height:50px; 
+        background-color: rgb(67, 92, 148);
+        display:flex; 
+        justify-content: space-around;
+        align-items: flex-end;
+        ul{ 
+            display:flex; 
+            list-style-type:none; 
+            align-items: flex-end;
+            li{
+                padding:10px;
+                a{
+                    text-decoration:none;
+                    padding:10px 20px 10px 20px; 
+                    color:#ccc;
+                    &:hover{
+                        color:white; 
+                        background-color:blue;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}
