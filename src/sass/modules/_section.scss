@@ -1,0 +1,35 @@
+section{
+    width:100%; 
+    text-align:center; 
+    background-color: white;
+    margin:0; 
+    padding:0; 
+
+    h3{
+        width:60%; 
+        margin:0 auto; padding:50px;
+        color:#7a7a7a;
+        font-size:27px;
+        font-weight: normal;
+        a{
+            text-decoration:none; 
+            color:#42b4d8;
+        }
+        &:nth-child(2){
+            padding-bottom:40px;
+        }
+    }
+
+    #cartes{
+        padding:30px;
+        display:flex;
+        justify-content: space-around;
+        .carte{
+            width:25%;
+            background-color: yellow;
+            i{
+                font-size:50px;
+            }
+        }
+    }
+}

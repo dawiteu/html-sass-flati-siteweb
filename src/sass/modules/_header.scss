@@ -1,6 +1,6 @@
 header{
     width:100%; 
-    min-height:70vh; 
+    height:50vh; 
     color:white; 
     text-transform: uppercase;
     background-image: url("../../../public/img/bg-header.png");
@@ -24,13 +24,13 @@ header{
                 padding:10px;
                 a{
                     text-decoration:none;
-                    padding:10px 20px 10px 20px; 
+                    padding:10px 15px 10px 20px; 
                     color:#ccc;
                     &:hover{
                         color:white; 
                         background-color:blue;
-                        border-top-left-radius: 10px;
-                        border-top-right-radius: 10px;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
                     }
                 }
             }

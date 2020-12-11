@@ -8,19 +8,9 @@ $fa-font-path : url("../../node_modules/@fortawesome/fontawesome-free/webfonts")
 @import "fonts";
 @import "variables";
 
-@import "modules/header";
 
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:12px;
-    margin:0; padding:0; 
-    background-color: #2d2d2d;
-}
+@import "modules/header"; 
+@import "modules/section";
 
-ul{ margin:0; padding:0; }
-.menuactive{
-    color:white; 
-    background-color:blue;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+@import "modules/style.scss";
+

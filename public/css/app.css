@@ -6127,9 +6127,14 @@ readers do not read off random characters that represent icons */
   src: url("../../public/font/raleway/Raleway-Regular.ttf");
 }
 
+@font-face {
+  font-family: "gros-raleway";
+  src: url("../../public/font/raleway/Raleway-Bold.ttf");
+}
+
 header {
   width: 100%;
-  min-height: 70vh;
+  height: 50vh;
   color: white;
   text-transform: uppercase;
   background-image: url("../../../public/img/bg-header.png");
@@ -6162,13 +6167,56 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 15px 10px 20px;
   color: #ccc;
 }
 
 header nav ul li a:hover {
   color: white;
   background-color: blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+section h3 {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px;
+  color: #7a7a7a;
+  font-size: 27px;
+  font-weight: normal;
+}
+
+section h3 a {
+  text-decoration: none;
+  color: #42b4d8;
+}
+
+section h3:nth-child(2) {
+  padding-bottom: 40px;
+}
+
+section #cartes {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section #cartes .carte {
+  width: 25%;
+  background-color: yellow;
+}
+
+section #cartes .carte i {
+  font-size: 50px;
 }
 
 body {
@@ -6176,7 +6224,6 @@ body {
   font-size: 12px;
   margin: 0;
   padding: 0;
-  background-color: #2d2d2d;
 }
 
 ul {
@@ -6187,4 +6234,14 @@ ul {
 .menuactive {
   color: white;
   background-color: blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bggrey {
+  background-color: beige;
+}
+
+.b {
+  font-weight: bold;
 }
