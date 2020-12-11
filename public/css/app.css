@@ -6201,7 +6201,6 @@ section h3 a {
 
 section h3:nth-child(1) {
   padding: 50px;
-  color: blue;
 }
 
 section h3:nth-child(2) {
@@ -6253,10 +6252,14 @@ section div#container {
   width: 80%;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
 section div#container div#recentw {
   text-align: left;
+  margin-right: 10%;
+  color: #2d2d2d;
+  flex: 1;
 }
 
 section div#container div#recentw button {
@@ -6269,15 +6272,34 @@ section div#container div#recentw button {
 
 section div#container div#minigal {
   display: flex;
-  background-color: red;
+  flex: 2;
+  margin-left: 5%;
 }
 
 section div#container div#minigal div.projects {
   margin: 5px;
 }
 
-section div#container div#minigal div.projects h3 {
-  padding: 5px;
+section div#container div#minigal div.projects img {
+  width: 100%;
+}
+
+section div#container div#minigal div.projects div.projectsinfo {
+  margin-top: -5px;
+  background-color: #002e4d;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+section div#container div#minigal div.projects div.projectsinfo h3 {
+  padding: 10px;
+  color: white;
+}
+
+section div#container div#minigal div.projects div.projectsinfo p {
+  margin: 5px;
+  padding-bottom: 15px;
 }
 
 body {
@@ -6301,6 +6323,10 @@ ul {
 
 .bggrey {
   background-color: beige;
+}
+
+.bgblue {
+  background-color: blue;
 }
 
 .b {

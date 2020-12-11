@@ -16,7 +16,6 @@ section{
         }
         &:nth-child(1){
             padding:50px;
-            color:blue;
         }
         &:nth-child(2){
             padding-bottom:40px;
@@ -64,12 +63,14 @@ section{
         width:80%; 
         margin:0 auto; 
         display:flex; 
-
+        justify-content: space-between;
         div#recentw{
-            // background-color: yellow;
+            
             text-align:left;
-            // padding:35px;
+            margin-right:10%;
+            color:#2d2d2d; 
 
+            
             button{
                 color:white;
                 background-color: $clb;
@@ -77,16 +78,32 @@ section{
                 padding:15px;
                 border-radius:5px;
             }
+            flex:1;
         }
 
         div#minigal{
             display:flex;
-            background-color: red;
-
+            flex:2;
+            margin-left:5%;
             div.projects{
                 margin:5px;
-                h3{
-                    padding:5px;
+                img{
+                    width:100%; 
+                }
+                div.projectsinfo{
+                    margin-top:-5px;
+                    background-color: #002e4d;
+                    color:white;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    h3{
+                        padding:10px;
+                        color:white;
+                    }
+                    p{
+                        margin:5px;
+                        padding-bottom:15px;
+                    }
                 }
             }
         }
