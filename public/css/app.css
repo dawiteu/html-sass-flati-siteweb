@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../../public/font/raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "gros-raleway";
+  src: url("../../public/font/raleway/Raleway-Bold.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6076,8 +6086,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-solid-900.eot');
-  src: url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-solid-900.eot?#iefix') format("embedded-opentype"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-solid-900.woff2') format("woff2"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-solid-900.woff') format("woff"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-solid-900.ttf') format("truetype"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-solid-900.svg#fontawesome') format("svg");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 
 .fa,
@@ -6095,8 +6105,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-brands-400.eot');
-  src: url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-brands-400.eot?#iefix') format("embedded-opentype"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-brands-400.woff2') format("woff2"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-brands-400.woff') format("woff"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-brands-400.ttf') format("truetype"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-brands-400.svg#fontawesome') format("svg");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
 .fab {
@@ -6113,23 +6123,13 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-regular-400.eot');
-  src: url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-regular-400.eot?#iefix') format("embedded-opentype"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-regular-400.woff2') format("woff2"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-regular-400.woff') format("woff"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-regular-400.ttf') format("truetype"), url('url("../../node_modules/@fortawesome/fontawesome-free/webfonts")/fa-regular-400.svg#fontawesome') format("svg");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot");
+  src: url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2") format("woff2"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff") format("woff"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf") format("truetype"), url("../../node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "Raleway";
-  src: url("../../public/font/raleway/Raleway-Regular.ttf");
-}
-
-@font-face {
-  font-family: "gros-raleway";
-  src: url("../../public/font/raleway/Raleway-Bold.ttf");
 }
 
 header {
@@ -6205,18 +6205,44 @@ section h3:nth-child(2) {
 }
 
 section #cartes {
+  width: 80%;
+  margin: 0 auto;
   padding: 30px;
   display: flex;
   justify-content: space-around;
 }
 
 section #cartes .carte {
-  width: 25%;
-  background-color: yellow;
+  width: 20%;
+  background-color: beige;
+  border-radius: 10px;
 }
 
 section #cartes .carte i {
-  font-size: 50px;
+  font-size: 30px;
+  margin: 15px;
+  color: #42b4d8;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+section #cartes .carte h3 {
+  padding: 0 !important;
+  color: #363434;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+section #cartes .carte a {
+  color: #42b4d8;
+  text-decoration: none;
+  margin: 5px;
+}
+
+section #cartes .carte p {
+  margin: 15px;
+  padding: 10px;
 }
 
 body {

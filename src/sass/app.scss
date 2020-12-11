@@ -1,16 +1,16 @@
-$fa-font-path : url("../../node_modules/@fortawesome/fontawesome-free/webfonts");
-
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 
 @import "fonts";
 @import "variables";
 
 
-@import "modules/header"; 
-@import "modules/section";
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 
-@import "modules/style.scss";
+
+
+
+@import "modules/style";
 

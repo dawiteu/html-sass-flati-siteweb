@@ -13,7 +13,7 @@ section{
         font-weight: normal;
         a{
             text-decoration:none; 
-            color:#42b4d8;
+            color:$clb;
         }
         &:nth-child(2){
             padding-bottom:40px;
@@ -21,14 +21,37 @@ section{
     }
 
     #cartes{
+        width:80%; 
+        margin:0 auto; 
         padding:30px;
         display:flex;
         justify-content: space-around;
         .carte{
-            width:25%;
-            background-color: yellow;
+            width:20%;
+            background-color: beige;
+            border-radius:10px; 
             i{
-                font-size:50px;
+                font-size:30px;
+                margin:15px;
+                color:$clb;
+                background-color:white; 
+                border-radius:100%;
+                padding:10px;
+            }
+            h3{
+                padding:0!important;
+                color:#363434;
+                text-transform: uppercase;
+                font-size:15px;
+            }
+            a{
+                color:$clb;
+                text-decoration:none; 
+                margin:5px;
+            }
+            p{
+                margin:15px;
+                padding:10px; 
             }
         }
     }
