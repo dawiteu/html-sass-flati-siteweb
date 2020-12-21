@@ -6137,7 +6137,7 @@ header {
   height: 50vh;
   color: white;
   text-transform: uppercase;
-  background-image: url("./img/bg-header.png");
+  background-image: url("../img/bg-header.png");
   background-size: cover;
 }
 
