@@ -3,7 +3,7 @@ header{
     height:50vh; 
     color:white; 
     text-transform: uppercase;
-    background-image: url("../../../public/img/bg-header.png");
+    background-image: url("./img/bg-header.png");
     background-size: cover;
     nav{
         div#brand{
@@ -21,7 +21,7 @@ header{
             list-style-type:none; 
             align-items: flex-end;
             li{
-                padding:10px;
+                 padding:10px;
                 a{
                     text-decoration:none;
                     padding:10px 15px 10px 20px; 
